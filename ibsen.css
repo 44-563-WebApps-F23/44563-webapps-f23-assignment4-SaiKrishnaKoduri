@@ -1,0 +1,45 @@
+.speech{
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    font-size: 20;
+
+    color: black;
+
+}
+
+/*will be used for directions*/
+
+.direction{
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+    font-size: 18;
+
+}
+
+/*will be used when hovered on directions*/
+
+.direction:hover{
+
+    color:black;
+
+    background-color: whitesmoke;
+
+}
+
+/*for character Mrs.Elvsted*/
+
+.elvsted{
+
+    color: green;
+
+}
+
+/*for character Berta*/
+
+.hedda{
+
+    color: red;
+
+}
