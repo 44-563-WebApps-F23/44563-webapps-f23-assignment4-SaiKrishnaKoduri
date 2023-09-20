@@ -6,10 +6,11 @@
 .direction{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 18;
+    background-color: azure;
 }
 .direction:hover{
     color:black;
-    background-color: whitesmoke;
+    background-color: blueviolet;
 }
 .elvsted{
     color: green;
@@ -41,4 +42,16 @@ tr:nth-child(even) {
 h4:hover{
     text-shadow: 3px 3px 5px greenyellow;
     border: solid orchid;
-}       
+}
+ul.navbar-horizontal {
+    list-style-type: none;
+    background-color:limegreen;
+    margin: 0;
+    padding: 6px;
+    width: 100%;
+    }
+   ul.navbar-horizontal li {
+    color:black;
+    display:inline-block;
+    padding: 9px;
+    }       
