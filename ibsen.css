@@ -1,45 +1,44 @@
 .speech{
-
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-
     font-size: 20;
-
     color: black;
-
 }
-
-/*will be used for directions*/
-
 .direction{
-
     font-family: Georgia, 'Times New Roman', Times, serif;
-
     font-size: 18;
-
 }
-
-/*will be used when hovered on directions*/
-
 .direction:hover{
-
     color:black;
-
     background-color: whitesmoke;
-
 }
-
-/*for character Mrs.Elvsted*/
-
 .elvsted{
-
     color: green;
-
 }
-
-/*for character Berta*/
-
 .hedda{
-
     color: red;
 
 }
+td{
+    border: solid 1px brown;
+    text-align:center;
+    padding: 20px 25px 20px 25px;
+    font-size:medium;
+    }
+th{
+    border: dotted 2px orange;
+    text-align:center;
+    margin: 25px 50px 25px 50px;
+    color:skyblue ;
+    font-size:large;
+    }
+tr:nth-child(even) {
+    color: rgb(72, 255, 0);
+    }
+.collapsing{
+    border: solid 3px pink;
+    border-collapse:initial;
+    } 
+h4:hover{
+    text-shadow: 3px 3px 5px greenyellow;
+    border: solid orchid;
+}       
